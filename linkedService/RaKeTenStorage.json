@@ -1,0 +1,15 @@
+{
+	"name": "RaKeTenStorage",
+	"properties": {
+		"description": "Link auf den Raketetechnologystorage Gen2 Storage Account",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://raketetechnologystorage.dfs.core.windows.net/"
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
